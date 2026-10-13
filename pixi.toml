@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Koen Caspers <me@koentech.dev>"]
+channels = ["conda-forge"]
+name = "PlotCheckExample"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+check = "python3 ./scripts/checknotebooks.py"
+
+[dependencies]
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+ipykernel = ">=7.4.0,<8"

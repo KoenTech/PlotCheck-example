@@ -1,0 +1,14 @@
+name: Plot Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: prefix-dev/setup-pixi@v0.11.0
+      - run: pixi run check
