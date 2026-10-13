@@ -2,7 +2,7 @@
 authors = ["Koen Caspers <me@koentech.dev>"]
 channels = ["conda-forge"]
 name = "PlotCheckExample"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64", "windows-64"]
 version = "0.1.0"
 
 [tasks]
