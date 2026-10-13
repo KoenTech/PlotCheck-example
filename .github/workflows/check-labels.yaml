@@ -1,4 +1,4 @@
-name: Plot Check
+name: Label Check
 
 on:
   push:
